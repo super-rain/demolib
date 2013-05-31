@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 User Interface", "01 User Interface", "{FAAE2824-17AE-4BBB-BE7B-C02346DB1ABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 WebModelCommon", "02 WebModelCommon", "{959FD04E-3B74-4F24-974F-0D652882087F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Business Logic", "03 Business Logic", "{1BD4DE89-BC28-4D00-BC34-AB3C154AC8BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 SOA", "06 SOA", "{5D73A84E-2855-4E7A-86D0-5EF70D7A3E6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 ReferenceLib", "05 ReferenceLib", "{45774842-FCDB-4EB0-8959-3C9AA798A07D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Core", "04 Core", "{35EEDFA4-0CDF-4C85-8DB7-07E946C29543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Solution Items", "07 Solution Items", "{03086896-D0BE-4F93-BA3C-E0BDA3E1C3B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 DLTest", "08 DLTest", "{4C6BA93F-B995-4725-9485-AE0E1FDA8757}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Publish", "09 Publish", "{72CFF89A-F9B9-484F-9F55-7E95FC68285D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL.WebHelper", "DL.WebHelper\DL.WebHelper.csproj", "{55CD9D5A-CDFB-43C8-96EC-F94D2A67C197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL.WebLogic", "DL.WebLogic\DL.WebLogic.csproj", "{029FFE0B-726F-44B3-AF15-F2C5A8CE24C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLib.Web", "DemoLib.Web\DemoLib.Web.csproj", "{ABDC481E-2F1E-43B7-B080-E4163919927C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DemoLibDocuments", "http://localhost:2597", "{B6178DB4-68F3-496B-AB0D-F4CC1D22A3F3}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2597"
+		Debug.AspNetCompiler.PhysicalPath = "DemoLibDocuments\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2597\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2597"
+		Release.AspNetCompiler.PhysicalPath = "DemoLibDocuments\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2597\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "DemoLibDocuments\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 DL.Sql", "10 DL.Sql", "{D5B040E6-FD6C-4698-A6FD-FCA8E6CE9E3F}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DL.DLCenterDataBase", "DL.DLCenterDataBase\DL.DLCenterDataBase.sqlproj", "{30E7330A-0852-456C-8E4A-0F84DABCA309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55CD9D5A-CDFB-43C8-96EC-F94D2A67C197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CD9D5A-CDFB-43C8-96EC-F94D2A67C197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CD9D5A-CDFB-43C8-96EC-F94D2A67C197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CD9D5A-CDFB-43C8-96EC-F94D2A67C197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029FFE0B-726F-44B3-AF15-F2C5A8CE24C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029FFE0B-726F-44B3-AF15-F2C5A8CE24C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029FFE0B-726F-44B3-AF15-F2C5A8CE24C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029FFE0B-726F-44B3-AF15-F2C5A8CE24C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDC481E-2F1E-43B7-B080-E4163919927C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDC481E-2F1E-43B7-B080-E4163919927C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDC481E-2F1E-43B7-B080-E4163919927C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDC481E-2F1E-43B7-B080-E4163919927C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6178DB4-68F3-496B-AB0D-F4CC1D22A3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6178DB4-68F3-496B-AB0D-F4CC1D22A3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6178DB4-68F3-496B-AB0D-F4CC1D22A3F3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6178DB4-68F3-496B-AB0D-F4CC1D22A3F3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{30E7330A-0852-456C-8E4A-0F84DABCA309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E7330A-0852-456C-8E4A-0F84DABCA309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E7330A-0852-456C-8E4A-0F84DABCA309}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30E7330A-0852-456C-8E4A-0F84DABCA309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E7330A-0852-456C-8E4A-0F84DABCA309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E7330A-0852-456C-8E4A-0F84DABCA309}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABDC481E-2F1E-43B7-B080-E4163919927C} = {FAAE2824-17AE-4BBB-BE7B-C02346DB1ABD}
+		{55CD9D5A-CDFB-43C8-96EC-F94D2A67C197} = {959FD04E-3B74-4F24-974F-0D652882087F}
+		{029FFE0B-726F-44B3-AF15-F2C5A8CE24C3} = {959FD04E-3B74-4F24-974F-0D652882087F}
+		{B6178DB4-68F3-496B-AB0D-F4CC1D22A3F3} = {03086896-D0BE-4F93-BA3C-E0BDA3E1C3B4}
+		{30E7330A-0852-456C-8E4A-0F84DABCA309} = {D5B040E6-FD6C-4698-A6FD-FCA8E6CE9E3F}
+	EndGlobalSection
+EndGlobal
